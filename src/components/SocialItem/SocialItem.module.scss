@@ -1,0 +1,17 @@
+.item {
+  display: flex;
+  width: 145px;
+  height: 116px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  background:
+    linear-gradient(#181818, #181818) padding-box,
+    linear-gradient(to right, #ff0000, #ff000022) border-box;
+  margin-right: 40px;
+  &:last-child {
+    margin-right: 0;
+  }
+}

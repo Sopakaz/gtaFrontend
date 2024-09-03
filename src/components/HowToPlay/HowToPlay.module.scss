@@ -1,0 +1,74 @@
+.howtoplay {
+  width: 100%;
+  background: linear-gradient(0deg, rgba(6, 3, 3, 0) 5.52%, #0e0808 90%);
+  background-position: center center;
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-bottom: 120px;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    transform: translateX(-60px);
+    background: url("../../../public/img//spot1.svg") no-repeat;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    transform: translateX(-70px);
+    background: url("../../../public/img//spot2.svg") no-repeat;
+    background-position: center center;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.dots {
+  position: absolute;
+  top: calc(50% + 100px);
+  right: 0;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .howtoplay {
+    padding-top: 80px;
+    padding-bottom: 0;
+  }
+
+  .steps {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title {
+    margin-bottom: 50px;
+    &::before {
+      top: -10px;
+      transform: translateX(-45px);
+      background-size: 80px 80px;
+      width: 80px;
+      height: 80px;
+    }
+    &::after {
+      top: -50px;
+      transform: translateX(-70px);
+      width: 80px;
+      height: 80px;
+    }
+  }
+  .dots {
+    display: none;
+  }
+}

@@ -1,0 +1,17 @@
+.title {
+  font-family: "SpriteGraffiti";
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 90px;
+  text-transform: uppercase;
+  transform: rotate(-4.8deg);
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .title {
+    font-size: 36px;
+    line-height: 40px;
+  }
+}

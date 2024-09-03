@@ -1,0 +1,16 @@
+.btn {
+  background: linear-gradient(101.16deg, #c52b18 48.91%, #030101 114.15%);
+  border-radius: 83px;
+  padding: 16.5px 44px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #fff;
+  transition: 0.2s;
+  &:hover {
+    background: linear-gradient(151.63deg, #921100 13.48%, #530b02 92.11%);
+    filter: drop-shadow(1px 0px 6px rgba(255, 0, 0, 0.24));
+  }
+}
